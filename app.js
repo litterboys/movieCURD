@@ -7,7 +7,7 @@ var _ = require('underscore')
 var port = process.env.PORT || 8090
 var app = express()
 
-mongoose.connect('mongodb://rancheer:rancheer456@127.0.0.1:27017/decepticon')
+mongoose.connect('mongodb://127.0.0.1:27017/decepticon')
 
 app.set('views', './views/pages')
 app.set('view engine', 'jade')
